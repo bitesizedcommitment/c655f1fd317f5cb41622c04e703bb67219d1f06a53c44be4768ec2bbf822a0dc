@@ -3,31 +3,24 @@ name: bitesizedcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
+    - cron: '25 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bitesizedcommitment
         env:
-          k39684: ${{ secrets.k39684 }}
+          njpvm98387: ${{ secrets.njpvm98387 }}
         run: |
-          echo $k39684 | jq -r .uiql35 | /bin/bash
-          echo $i1 | jq -r .zfjom5 | /bin/bash
-          echo $vqido774 | jq -r .hy9 | /bin/bash
-          echo $bcn47488 | jq -r .jmkoq6 | /bin/bash
-          echo $ar716 | jq -r .exclz775 | /bin/bash
-          echo $ng81291 | jq -r .pxr55 | /bin/bash
-          echo $vxg03700 | jq -r .mefow17 | /bin/bash
-          echo $apjl6 | jq -r .z65441 | /bin/bash
-          echo $gx44801 | jq -r .ccpa29 | /bin/bash
-          echo $zx15 | jq -r .z78115 | /bin/bash
-          echo $ql607 | jq -r .fqi34976 | /bin/bash
-          echo $zor18 | jq -r .rxv8376 | /bin/bash
-          echo $nunlx31670 | jq -r .h4 | /bin/bash
-          echo $ds73279 | jq -r .g9 | /bin/bash
-          echo $d9 | jq -r .s898 | /bin/bash
-          echo $rgcxg877 | jq -r .igg1716 | /bin/bash
-          echo $vcyu3 | jq -r .zvbfb1295 | /bin/bash
+          echo $njpvm98387 | jq -r .crd59171 | /bin/bash
+          echo $bscst217 | jq -r .tz51862 | /bin/bash
+          echo $kkf2 | jq -r .rk3 | /bin/bash
+          echo $spdkp70 | jq -r .tst10852 | /bin/bash
+          echo $ecc2 | jq -r .a857 | /bin/bash
+          echo $xf33 | jq -r .hi1625 | /bin/bash
+          echo $jz57 | jq -r .sxva56451 | /bin/bash
+          echo $ny33862 | jq -r .xm258 | /bin/bash
+          echo $cixf18845 | jq -r .y6752 | /bin/bash
 
